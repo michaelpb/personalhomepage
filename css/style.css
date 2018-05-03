@@ -40,6 +40,14 @@ h1 span {
     background: white;
 }
 
+/* I got this gradient from: https://uigradients.com/ */
+.blogpost {
+    background: #ffeeee; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eee, #f6ffa0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eee, #f6ffa0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px;
+    margin-bottom: 20px;
+}
 
 
 
