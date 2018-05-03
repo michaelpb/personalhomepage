@@ -27,7 +27,7 @@ h3 {
 }
 
 h1 {
-    font-size: 64pt;
+    font-size: 39pt;
     font-weight: 100;
 }
 h1 span {
@@ -50,10 +50,33 @@ h1 span {
 }
 
 
+.project {
+    border-top: #ae0000 solid 1px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.personalbio {
+    background-color: #f6ffa0;
+    font-size: 14pt;
+    padding: 30px;
+    margin: 30px;
+    text-align: justify;
+}
+
+/* Disable blue underlined links here */
+.project a {
+    color: black;
+}
+
+.project a:hover {
+    text-decoration: none;
+    color: #ae0000;
+}
 
 /* Adding custom color scheme to Bootstrap buttons */
 .buttons {
-    padding-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
